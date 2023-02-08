@@ -6,9 +6,9 @@ All source files should be placed into `empower-dump` directory. The contents ar
 
 - `empower-auth` - Data files.
 - `web` - Static web pages.
+- `test` - Unit testing covers all endpoints in `app.py`.
 - `hash.py` - Password hashing.
 - `app.py` - Entry point, a Flask server contains 3 endpoints: `login`, `summary` and `rank`.
-- `test.py` - Unit testing covers all endpoints in `app.py`.
 - `requirements.txt` - Required Python packages.
 
 ## APIs
